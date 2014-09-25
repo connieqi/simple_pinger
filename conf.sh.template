@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Add as many devices as you'd like
+DEVICE=()
+DEVICE[1]="Device_1"
+DEVICE[2]="Device_2"
+DEVICE[3]="Device_3"
+
