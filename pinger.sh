@@ -5,9 +5,9 @@ source conf.sh
 DEVICES_UP=()
 DEVICES_DOWN=()
 
-red='\x1B[0;31m'
-green='\x1B[0;32m'
-NC='\x1B[0m' # No Color
+red='\e[0;31m'
+green='\e[0;32m'
+NC='\e[0m' # No Color
 
 for index in ${!DEVICE[@]}; do
     echo -e ${red}${DEVICE[$index]}${NC}
